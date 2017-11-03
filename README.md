@@ -126,31 +126,9 @@ public class SimpleTinkerInApplicationLike extends ApplicationLike {
 </pre>
 
 4、清单文件：
-<pre>
-<?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android"
-          package="com.zmm.tinkerdemo">
-    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-    <application
-        android:name=".SimpleTinkerInApplication"
-        android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
-        android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
-        android:supportsRtl="true"
-        android:theme="@style/AppTheme">
-        <meta-data
-            android:name="TINKER_ID"
-            android:value="tinker_id_6235657" />
-        <activity android:name=".MainActivity">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN"/>
-                <category android:name="android.intent.category.LAUNCHER"/>
-            </intent-filter>
-        </activity>
-    </application>
-</manifest>
-</pre>
+
+![image](https://github.com/Giousa/TinkerDemo/blob/master/screenshot/mani.png)
+
 
 5、打包apk：将生成apk命名为：old.apk
 
